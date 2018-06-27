@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LintedComponent />
+    <NotLintedComponent />
   </div>
 </template>
 
 <script>
-import { HelloWorld } from './components'
+import * as components from './components'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
-  }
+  components
 }
 </script>
 

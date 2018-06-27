@@ -1,1 +1,2 @@
-export { default as HelloWorld } from './HelloWorld/HelloWorld.vue'
+export { default as NotLintedComponent } from './NotLintedComponent/NotLintedComponent.vue'
+export { default as LintedComponent } from './LintedComponent.vue'
