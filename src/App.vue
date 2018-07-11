@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <LintedComponent />
-    <NotLintedComponent />
+    <Page />
   </div>
 </template>
 
 <script>
-import * as components from './components'
+import Page from './Page.vue'
 
 export default {
   name: 'app',
-  components
+  components: {
+    Page
+  }
 }
 </script>
 
